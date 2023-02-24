@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  
+body{
+    
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    font-family: 'Poppins', sans-serif;
+    
+} 
+.container{
+    background-color:rgba(44, 15, 10,0.1);
+   
+    animation-name:MoveinLeft;
+    animation-duration: 3s;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+#header{
+    color:rgb(22, 32, 34);
+    display: block;
+    font-family: 'Shantell Sans', cursive;
+    color:floralwhite;
+    text-transform: uppercase;
+    
+}
+label{
+    color: floralwhite;
+}
+th{
+    color:floralwhite ;
+}
+form{
+    display: block;
+}
+.form-control{
+    border: none;
+}
+input{
+    background-color: #56687796;
+    margin-bottom: 2px;
+    
+
+}
+
+.btn{
+    margin-top: 2rem;
+    background-color: rgb(247, 211, 7);
+    border: none;
+    color: black;
+}
+.btn:hover{
+    background-color:rgb(247, 211, 7) ;
+    color: black;
+}
+.float-left{
+    margin-left: 3rem;
+    color: rgb(53, 50, 31);
+}
+.clear{
+    
+    margin-left: 1rem;
+    float: right;
+    text-decoration: none;
+    color: rgb(247, 211, 7);
+}
+.submit{
+    margin-top: 10px;
+}
+#search{
+    background-color:black;
+    color: white;
+}
+
+@keyframes MoveinLeft{
+    0%{
+        opacity: 0;
+        transform: translate(-50px);
+    }
+    100%{
+        opacity: 6;
+    }
+}
+td{
+    color:  white;
+
+}
+.fa-trash{
+    color:rgb(228, 172, 20) ;
+}
